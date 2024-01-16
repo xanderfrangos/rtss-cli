@@ -49,19 +49,19 @@ limit:offset <value>    integer to offset the framerate limit with
 
 When using `property:set` or `property:get`, the following properties can be used:
 ```
-AppDetectionLevel						0..3	- Application detection level
-Implementation						    0..1	- On-Screen Display rendering mode
-EnableFloatingInjectionAddress		    0..1	- Stealth mode
-EnableDynamicOffsetDetection			0..1	- Custom Direct3D support
-FramerateLimit						    ....	- Framerate limit
-FontWeight							    ....	- font weight for Raster3D On-Screen Display rendering mode
-EnableOSD								0..1	- On-Screen Display support
-EnableBgnd							    0..1	- On-Screen Display shadow
-EnableStat							    ....	- Show own statistics
-BaseColor, BgndColor					....	- On-Screen Display palette
-PositionX, PositionY					....	- On-Screen Display position
-ZoomRatio								1..8	- On-Screen Display zoom
-CoordinateSpace						    0..1	- On-Screen Display coordinate space
+AppDetectionLevel                       0..3	- Application detection level
+Implementation                          0..1	- On-Screen Display rendering mode
+EnableFloatingInjectionAddress          0..1	- Stealth mode
+EnableDynamicOffsetDetection            0..1	- Custom Direct3D support
+FramerateLimit                          ....	- Framerate limit
+FontWeight                              ....	- font weight for Raster3D On-Screen Display rendering mode
+EnableOSD                               0..1	- On-Screen Display support
+EnableBgnd                              0..1	- On-Screen Display shadow
+EnableStat                              ....	- Show own statistics
+BaseColor, BgndColor                    ....	- On-Screen Display palette
+PositionX, PositionY                    ....	- On-Screen Display position
+ZoomRatio                               1..8	- On-Screen Display zoom
+CoordinateSpace                         0..1	- On-Screen Display coordinate space
 ```
 
 ## Examples
